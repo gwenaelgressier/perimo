@@ -1,0 +1,179 @@
+:root {
+  --vert: #2e7d5b;
+  --orange: #e08a00;
+  --rouge: #c62828;
+  --fond: #f4f6f3;
+  --carte: #ffffff;
+  --texte: #1f2a24;
+  --gris: #6b756f;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: var(--fond);
+  color: var(--texte);
+}
+
+header {
+  background: var(--vert);
+  color: white;
+  padding: 16px;
+  text-align: center;
+}
+header { position: relative; }
+header h1 { margin: 0; font-size: 1.6rem; }
+#btn-deconnexion {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  border: 1px solid rgba(255,255,255,.6);
+  border-radius: 8px;
+  background: none;
+  color: white;
+  font-size: .8rem;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+#form-connexion .secondaire { margin-top: 8px; }
+#message-connexion { min-height: 1.2em; margin: 8px 0 0; font-size: .9rem; }
+header p { margin: 4px 0 0; opacity: .85; }
+
+main { max-width: 560px; margin: 0 auto; padding: 16px; }
+
+.carte {
+  background: var(--carte);
+  border-radius: 14px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
+}
+.carte h2 { margin-top: 0; font-size: 1.15rem; }
+
+button.principal {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: var(--vert);
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+#btn-scan { margin-bottom: 12px; }
+#lecteur { margin-bottom: 12px; border-radius: 10px; overflow: hidden; }
+
+form label { display: block; margin-bottom: 10px; font-size: .9rem; color: var(--gris); }
+form input {
+  display: block;
+  width: 100%;
+  margin-top: 4px;
+  padding: 10px;
+  border: 1px solid #cfd6d1;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+.ligne { display: flex; gap: 10px; }
+.ligne label { flex: 1; }
+.ligne .petit { flex: 0 0 90px; }
+
+#apercu { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+#apercu[hidden] { display: none; }
+#apercu img { width: 48px; height: 48px; object-fit: contain; }
+
+#message { min-height: 1.2em; margin: 8px 0 0; font-size: .9rem; }
+
+#liste { list-style: none; padding: 0; margin: 0; }
+#liste li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid #eef1ee;
+}
+#liste li:last-child { border-bottom: none; }
+#liste img { width: 40px; height: 40px; object-fit: contain; }
+.infos { flex: 1; min-width: 0; }
+.infos strong { display: block; }
+.infos small { color: var(--gris); }
+
+.badge {
+  padding: 4px 8px;
+  border-radius: 999px;
+  font-size: .8rem;
+  color: white;
+  white-space: nowrap;
+}
+.badge.ok { background: var(--vert); }
+.badge.bientot { background: var(--orange); }
+.badge.perime { background: var(--rouge); }
+
+.supprimer {
+  border: none;
+  background: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.vide { color: var(--gris); text-align: center; }
+
+.aide { color: var(--gris); font-size: .9rem; margin: 0 0 8px; }
+
+.sujet {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.sujet code {
+  flex: 1;
+  padding: 10px;
+  background: var(--fond);
+  border-radius: 8px;
+  font-size: .95rem;
+  overflow-wrap: anywhere;
+}
+.sujet button { border: none; background: none; font-size: 1.2rem; cursor: pointer; }
+
+button.secondaire {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--vert);
+  border-radius: 10px;
+  background: white;
+  color: var(--vert);
+  font-size: .95rem;
+  cursor: pointer;
+}
+#message-notif { min-height: 1.2em; margin: 8px 0 0; font-size: .9rem; }
+
+#btn-photo-date { margin-bottom: 4px; }
+#message-date { min-height: 1.2em; margin: 6px 0; }
+#dates-trouvees { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+#dates-trouvees:empty { display: none; }
+.puce-date {
+  padding: 6px 10px;
+  border: 1px solid #cfd6d1;
+  border-radius: 999px;
+  background: white;
+  font-size: .9rem;
+  cursor: pointer;
+}
+.puce-date.choisie { border-color: var(--vert); background: var(--vert); color: white; }
+
+#message-recettes { min-height: 1.2em; margin: 8px 0 0; font-size: .9rem; }
+
+.recette {
+  border: 1px solid #e3e8e4;
+  border-radius: 10px;
+  margin-top: 12px;
+  padding: 12px;
+}
+.recette summary { cursor: pointer; font-weight: 600; }
+.recette summary small { font-weight: normal; color: var(--gris); }
+.recette h3 { font-size: .9rem; margin: 12px 0 4px; color: var(--gris); }
+.recette ul, .recette ol { margin: 0; padding-left: 20px; }
+.recette li { margin-bottom: 4px; }
+.recette .frigo { color: var(--vert); }

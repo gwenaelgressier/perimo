@@ -1,0 +1,514 @@
+[
+  {
+    "titre": "Omelette au fromage",
+    "duree_minutes": 10,
+    "ingredients": [
+      {"nom": "Œufs", "cles": ["oeuf"]},
+      {"nom": "Fromage râpé", "cles": ["fromage rape", "gruyere", "emmental", "comte", "fromage"], "sauf": ["fromage blanc", "fromage frais"]}
+    ],
+    "etapes": [
+      "Battre 3 œufs par personne avec sel et poivre.",
+      "Faire fondre un peu de beurre dans une poêle à feu moyen.",
+      "Verser les œufs, parsemer de fromage et cuire 3 à 4 min.",
+      "Plier l'omelette en deux et servir."
+    ]
+  },
+  {
+    "titre": "Quiche lorraine",
+    "duree_minutes": 45,
+    "ingredients": [
+      {"nom": "Pâte brisée", "cles": ["pate brisee", "pate feuilletee"]},
+      {"nom": "Lardons", "cles": ["lardon"]},
+      {"nom": "Œufs", "cles": ["oeuf"]},
+      {"nom": "Crème fraîche", "cles": ["creme fraiche", "creme liquide", "creme epaisse", "creme entiere", "creme legere"]},
+      {"nom": "Lait", "cles": ["lait"]}
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C et étaler la pâte dans un moule.",
+      "Faire revenir les lardons à la poêle sans matière grasse.",
+      "Battre 3 œufs avec 20 cl de crème, 10 cl de lait, sel, poivre et muscade.",
+      "Répartir les lardons sur la pâte, verser l'appareil.",
+      "Cuire 30 min jusqu'à ce que la quiche soit dorée."
+    ]
+  },
+  {
+    "titre": "Gratin de courgettes",
+    "duree_minutes": 40,
+    "ingredients": [
+      {"nom": "Courgettes", "cles": ["courgette"]},
+      {"nom": "Crème fraîche", "cles": ["creme fraiche", "creme liquide", "creme epaisse", "creme entiere", "creme legere"]},
+      {"nom": "Œufs", "cles": ["oeuf"]},
+      {"nom": "Fromage râpé", "cles": ["fromage rape", "gruyere", "emmental", "comte", "parmesan", "fromage"], "sauf": ["fromage blanc", "fromage frais"]}
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C.",
+      "Couper les courgettes en rondelles et les faire revenir 5 min à l'huile.",
+      "Battre 2 œufs avec 20 cl de crème, saler et poivrer.",
+      "Mettre les courgettes dans un plat, verser la crème, couvrir de fromage.",
+      "Enfourner 25 min."
+    ]
+  },
+  {
+    "titre": "Gratin dauphinois",
+    "duree_minutes": 75,
+    "ingredients": [
+      {"nom": "Pommes de terre", "cles": ["pomme de terre", "pommes de terre", "patate"]},
+      {"nom": "Crème fraîche", "cles": ["creme fraiche", "creme liquide", "creme epaisse", "creme entiere", "creme legere"]},
+      {"nom": "Lait", "cles": ["lait"]},
+      {"nom": "Ail", "cles": ["ail"]}
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C et frotter un plat avec une gousse d'ail.",
+      "Éplucher et couper 1 kg de pommes de terre en fines rondelles.",
+      "Faire chauffer 30 cl de lait et 20 cl de crème avec sel, poivre et muscade.",
+      "Disposer les pommes de terre dans le plat et verser le mélange.",
+      "Cuire 1 h jusqu'à ce que le dessus soit doré."
+    ]
+  },
+  {
+    "titre": "Pâtes carbonara",
+    "duree_minutes": 20,
+    "ingredients": [
+      {"nom": "Pâtes", "cles": ["pates", "spaghetti", "tagliatelle", "penne", "linguine"], "sauf": ["pate brisee", "pate feuilletee", "pate a pizza", "pate a tartiner"], "placard": true},
+      {"nom": "Lardons", "cles": ["lardon", "pancetta", "guanciale"]},
+      {"nom": "Œufs", "cles": ["oeuf"]},
+      {"nom": "Parmesan", "cles": ["parmesan", "pecorino", "parmigiano", "grana padano"]}
+    ],
+    "etapes": [
+      "Cuire les pâtes dans une grande casserole d'eau salée.",
+      "Faire dorer les lardons à la poêle.",
+      "Battre 2 jaunes + 1 œuf entier avec le parmesan râpé et du poivre.",
+      "Égoutter les pâtes en gardant un peu d'eau, les mélanger hors du feu avec les lardons puis les œufs.",
+      "Ajouter un peu d'eau de cuisson pour rendre la sauce crémeuse."
+    ]
+  },
+  {
+    "titre": "Croque-monsieur",
+    "duree_minutes": 15,
+    "ingredients": [
+      {"nom": "Pain de mie", "cles": ["pain de mie"], "placard": true},
+      {"nom": "Jambon", "cles": ["jambon"], "sauf": ["jambon cru"]},
+      {"nom": "Fromage", "cles": ["emmental", "gruyere", "comte", "fromage rape", "cheddar", "fromage"], "sauf": ["fromage blanc", "fromage frais"]}
+    ],
+    "etapes": [
+      "Beurrer les tranches de pain de mie.",
+      "Garnir de jambon et de fromage, refermer.",
+      "Ajouter du fromage sur le dessus.",
+      "Cuire 10 min au four à 200 °C ou à la poêle."
+    ]
+  },
+  {
+    "titre": "Salade tomate mozzarella",
+    "duree_minutes": 10,
+    "ingredients": [
+      {"nom": "Tomates", "cles": ["tomate"], "sauf": ["sauce tomate", "concentre de tomate", "coulis de tomate"]},
+      {"nom": "Mozzarella", "cles": ["mozzarella", "burrata"]},
+      {"nom": "Basilic", "cles": ["basilic"]}
+    ],
+    "etapes": [
+      "Couper les tomates et la mozzarella en tranches.",
+      "Les alterner dans une assiette.",
+      "Arroser d'huile d'olive, saler, poivrer et ajouter le basilic."
+    ]
+  },
+  {
+    "titre": "Poulet à la crème et aux champignons",
+    "duree_minutes": 30,
+    "ingredients": [
+      {"nom": "Poulet", "cles": ["poulet", "blanc de poulet", "escalope de poulet", "dinde"]},
+      {"nom": "Champignons", "cles": ["champignon"]},
+      {"nom": "Crème fraîche", "cles": ["creme fraiche", "creme liquide", "creme epaisse", "creme entiere", "creme legere"]},
+      {"nom": "Oignon", "cles": ["oignon", "echalote"]}
+    ],
+    "etapes": [
+      "Couper le poulet en morceaux et l'oignon en lamelles.",
+      "Faire dorer le poulet dans un peu d'huile, réserver.",
+      "Faire revenir l'oignon et les champignons émincés 5 min.",
+      "Remettre le poulet, ajouter 20 cl de crème, saler, poivrer.",
+      "Laisser mijoter 10 min. Servir avec du riz ou des pâtes."
+    ]
+  },
+  {
+    "titre": "Ratatouille",
+    "duree_minutes": 60,
+    "ingredients": [
+      {"nom": "Courgettes", "cles": ["courgette"]},
+      {"nom": "Aubergine", "cles": ["aubergine"]},
+      {"nom": "Poivron", "cles": ["poivron"]},
+      {"nom": "Tomates", "cles": ["tomate"], "sauf": ["sauce tomate", "concentre de tomate"]},
+      {"nom": "Oignon", "cles": ["oignon"]}
+    ],
+    "etapes": [
+      "Couper tous les légumes en dés.",
+      "Faire revenir l'oignon dans l'huile d'olive.",
+      "Ajouter poivron et aubergine, cuire 10 min.",
+      "Ajouter courgettes et tomates, du thym, sel et poivre.",
+      "Couvrir et laisser mijoter 40 min à feu doux."
+    ]
+  },
+  {
+    "titre": "Soupe de légumes",
+    "duree_minutes": 40,
+    "ingredients": [
+      {"nom": "Carottes", "cles": ["carotte"]},
+      {"nom": "Poireau", "cles": ["poireau"]},
+      {"nom": "Pommes de terre", "cles": ["pomme de terre", "pommes de terre", "patate"]},
+      {"nom": "Oignon", "cles": ["oignon"]}
+    ],
+    "etapes": [
+      "Éplucher et couper les légumes en morceaux.",
+      "Les faire revenir 5 min dans un peu de beurre.",
+      "Couvrir d'eau, ajouter un cube de bouillon, sel et poivre.",
+      "Cuire 25 min puis mixer."
+    ]
+  },
+  {
+    "titre": "Velouté de courgettes",
+    "duree_minutes": 30,
+    "ingredients": [
+      {"nom": "Courgettes", "cles": ["courgette"]},
+      {"nom": "Fromage frais", "cles": ["vache qui rit", "kiri", "fromage frais", "saint moret", "boursin", "carre frais"]},
+      {"nom": "Oignon", "cles": ["oignon", "echalote"]}
+    ],
+    "etapes": [
+      "Faire revenir l'oignon émincé dans un peu d'huile.",
+      "Ajouter les courgettes en morceaux et couvrir d'eau avec un cube de bouillon.",
+      "Cuire 20 min.",
+      "Ajouter le fromage frais et mixer."
+    ]
+  },
+  {
+    "titre": "Hachis parmentier",
+    "duree_minutes": 60,
+    "ingredients": [
+      {"nom": "Viande hachée", "cles": ["viande hachee", "steak hache", "boeuf hache"]},
+      {"nom": "Pommes de terre", "cles": ["pomme de terre", "pommes de terre", "patate"]},
+      {"nom": "Lait", "cles": ["lait"]},
+      {"nom": "Oignon", "cles": ["oignon"]},
+      {"nom": "Fromage râpé", "cles": ["fromage rape", "gruyere", "emmental", "comte"]}
+    ],
+    "etapes": [
+      "Cuire les pommes de terre 20 min à l'eau, les écraser avec du lait et du beurre.",
+      "Faire revenir l'oignon puis la viande hachée, saler, poivrer.",
+      "Mettre la viande dans un plat, couvrir de purée puis de fromage.",
+      "Gratiner 20 min au four à 200 °C."
+    ]
+  },
+  {
+    "titre": "Saumon à la crème citronnée",
+    "duree_minutes": 20,
+    "ingredients": [
+      {"nom": "Saumon", "cles": ["saumon"], "sauf": ["saumon fume"]},
+      {"nom": "Crème fraîche", "cles": ["creme fraiche", "creme liquide", "creme epaisse", "creme entiere", "creme legere"]},
+      {"nom": "Citron", "cles": ["citron"]}
+    ],
+    "etapes": [
+      "Cuire les pavés de saumon 4 min de chaque côté dans une poêle huilée.",
+      "Ajouter 15 cl de crème et le jus d'un demi-citron.",
+      "Laisser réduire 3 min, saler, poivrer.",
+      "Servir avec du riz ou des légumes."
+    ]
+  },
+  {
+    "titre": "Pâtes au saumon",
+    "duree_minutes": 20,
+    "ingredients": [
+      {"nom": "Pâtes", "cles": ["pates", "spaghetti", "tagliatelle", "penne", "linguine"], "sauf": ["pate brisee", "pate feuilletee", "pate a pizza", "pate a tartiner"], "placard": true},
+      {"nom": "Saumon", "cles": ["saumon"]},
+      {"nom": "Crème fraîche", "cles": ["creme fraiche", "creme liquide", "creme epaisse", "creme entiere", "creme legere"]},
+      {"nom": "Citron", "cles": ["citron"]}
+    ],
+    "etapes": [
+      "Cuire les pâtes dans l'eau salée.",
+      "Couper le saumon en morceaux et le chauffer 3 min dans la crème.",
+      "Ajouter un filet de citron, sel, poivre et aneth si vous en avez.",
+      "Mélanger avec les pâtes égouttées."
+    ]
+  },
+  {
+    "titre": "Salade niçoise",
+    "duree_minutes": 20,
+    "ingredients": [
+      {"nom": "Thon", "cles": ["thon"]},
+      {"nom": "Œufs", "cles": ["oeuf"]},
+      {"nom": "Tomates", "cles": ["tomate"], "sauf": ["sauce tomate", "concentre de tomate"]},
+      {"nom": "Salade", "cles": ["salade", "laitue", "mache", "roquette", "batavia", "sucrine"], "sauf": ["salade de fruit"]},
+      {"nom": "Olives", "cles": ["olive"], "sauf": ["huile d'olive", "huile olive"]}
+    ],
+    "etapes": [
+      "Cuire les œufs 9 min dans l'eau bouillante, les écaler.",
+      "Laver la salade et couper les tomates en quartiers.",
+      "Disposer salade, tomates, thon, œufs en quartiers et olives.",
+      "Assaisonner d'une vinaigrette."
+    ]
+  },
+  {
+    "titre": "Tarte aux poireaux",
+    "duree_minutes": 50,
+    "ingredients": [
+      {"nom": "Pâte brisée", "cles": ["pate brisee", "pate feuilletee"]},
+      {"nom": "Poireaux", "cles": ["poireau"]},
+      {"nom": "Crème fraîche", "cles": ["creme fraiche", "creme liquide", "creme epaisse", "creme entiere", "creme legere"]},
+      {"nom": "Œufs", "cles": ["oeuf"]},
+      {"nom": "Fromage râpé", "cles": ["fromage rape", "gruyere", "emmental", "comte"]}
+    ],
+    "etapes": [
+      "Préchauffer le four à 200 °C.",
+      "Émincer les poireaux et les faire fondre 15 min dans du beurre.",
+      "Battre 3 œufs avec 20 cl de crème, sel, poivre.",
+      "Étaler la pâte, ajouter les poireaux, l'appareil et le fromage.",
+      "Cuire 30 min."
+    ]
+  },
+  {
+    "titre": "Risotto aux champignons",
+    "duree_minutes": 35,
+    "ingredients": [
+      {"nom": "Riz à risotto", "cles": ["riz", "arborio"], "placard": true},
+      {"nom": "Champignons", "cles": ["champignon"]},
+      {"nom": "Parmesan", "cles": ["parmesan", "parmigiano", "grana padano"]},
+      {"nom": "Oignon", "cles": ["oignon", "echalote"]}
+    ],
+    "etapes": [
+      "Faire revenir l'oignon haché dans du beurre.",
+      "Ajouter le riz et le nacrer 2 min.",
+      "Verser du bouillon chaud louche par louche en remuant, pendant 18 min.",
+      "Ajouter les champignons poêlés et le parmesan râpé à la fin."
+    ]
+  },
+  {
+    "titre": "Gâteau au yaourt",
+    "duree_minutes": 45,
+    "ingredients": [
+      {"nom": "Yaourt", "cles": ["yaourt", "yogourt"]},
+      {"nom": "Œufs", "cles": ["oeuf"]}
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C.",
+      "Mélanger 1 pot de yaourt, 2 pots de sucre, 3 œufs, 3 pots de farine, 1/2 pot d'huile et 1 sachet de levure.",
+      "Verser dans un moule beurré.",
+      "Cuire 35 min."
+    ]
+  },
+  {
+    "titre": "Crêpes",
+    "duree_minutes": 30,
+    "ingredients": [
+      {"nom": "Œufs", "cles": ["oeuf"]},
+      {"nom": "Lait", "cles": ["lait"]}
+    ],
+    "etapes": [
+      "Mélanger 250 g de farine, 3 œufs et une pincée de sel.",
+      "Ajouter progressivement 50 cl de lait en fouettant.",
+      "Ajouter 2 cuillères d'huile ou de beurre fondu.",
+      "Cuire les crêpes dans une poêle chaude légèrement graissée."
+    ]
+  },
+  {
+    "titre": "Pain perdu",
+    "duree_minutes": 15,
+    "ingredients": [
+      {"nom": "Pain", "cles": ["pain", "brioche", "baguette"], "placard": true},
+      {"nom": "Œufs", "cles": ["oeuf"]},
+      {"nom": "Lait", "cles": ["lait"]}
+    ],
+    "etapes": [
+      "Battre 2 œufs avec 20 cl de lait et 2 cuillères de sucre.",
+      "Tremper les tranches de pain dans le mélange.",
+      "Les dorer dans une poêle beurrée 2 min de chaque côté."
+    ]
+  },
+  {
+    "titre": "Smoothie banane",
+    "duree_minutes": 5,
+    "ingredients": [
+      {"nom": "Banane", "cles": ["banane"]},
+      {"nom": "Yaourt ou lait", "cles": ["yaourt", "lait"]},
+      {"nom": "Fruits rouges", "cles": ["fraise", "framboise", "myrtille", "fruits rouges", "mure"]}
+    ],
+    "etapes": [
+      "Mettre tous les ingrédients dans un blender.",
+      "Mixer 1 min et servir frais."
+    ]
+  },
+  {
+    "titre": "Compote de pommes",
+    "duree_minutes": 25,
+    "ingredients": [
+      {"nom": "Pommes", "cles": ["pomme"], "sauf": ["pomme de terre", "pommes de terre"]}
+    ],
+    "etapes": [
+      "Éplucher et couper les pommes en morceaux.",
+      "Les cuire 20 min à feu doux avec un fond d'eau et un peu de sucre.",
+      "Écraser à la fourchette ou mixer."
+    ]
+  },
+  {
+    "titre": "Chili con carne",
+    "duree_minutes": 45,
+    "ingredients": [
+      {"nom": "Viande hachée", "cles": ["viande hachee", "steak hache", "boeuf hache"]},
+      {"nom": "Haricots rouges", "cles": ["haricot rouge"], "placard": true},
+      {"nom": "Tomates", "cles": ["tomate", "sauce tomate", "coulis de tomate"]},
+      {"nom": "Oignon", "cles": ["oignon"]},
+      {"nom": "Poivron", "cles": ["poivron"]}
+    ],
+    "etapes": [
+      "Faire revenir l'oignon et le poivron en dés.",
+      "Ajouter la viande et la faire dorer.",
+      "Ajouter les tomates, les haricots égouttés, du cumin et du piment.",
+      "Laisser mijoter 30 min. Servir avec du riz."
+    ]
+  },
+  {
+    "titre": "Salade de chèvre chaud",
+    "duree_minutes": 15,
+    "ingredients": [
+      {"nom": "Chèvre", "cles": ["chevre", "buche de chevre", "crottin"]},
+      {"nom": "Salade", "cles": ["salade", "laitue", "mache", "roquette", "batavia", "sucrine"], "sauf": ["salade de fruit"]},
+      {"nom": "Pain", "cles": ["pain", "baguette"], "placard": true}
+    ],
+    "etapes": [
+      "Couper le pain en tranches et poser une rondelle de chèvre sur chacune.",
+      "Passer 5 min sous le grill du four.",
+      "Servir sur la salade assaisonnée, avec un filet de miel si vous en avez."
+    ]
+  },
+  {
+    "titre": "Poêlée de poulet aux légumes",
+    "duree_minutes": 25,
+    "ingredients": [
+      {"nom": "Poulet", "cles": ["poulet", "blanc de poulet", "escalope de poulet", "dinde"]},
+      {"nom": "Poivron", "cles": ["poivron"]},
+      {"nom": "Courgette", "cles": ["courgette"]},
+      {"nom": "Carotte", "cles": ["carotte"]},
+      {"nom": "Oignon", "cles": ["oignon"]}
+    ],
+    "etapes": [
+      "Couper le poulet et les légumes en lanières.",
+      "Faire dorer le poulet à feu vif, réserver.",
+      "Faire sauter les légumes 8 min.",
+      "Remettre le poulet, ajouter un trait de sauce soja ou des épices, cuire 3 min."
+    ]
+  },
+  {
+    "titre": "Clafoutis aux fruits",
+    "duree_minutes": 45,
+    "ingredients": [
+      {"nom": "Fruits (cerises, fruits rouges, poires…)", "cles": ["cerise", "fraise", "framboise", "myrtille", "fruits rouges", "poire", "abricot", "prune"]},
+      {"nom": "Œufs", "cles": ["oeuf"]},
+      {"nom": "Lait", "cles": ["lait"]}
+    ],
+    "etapes": [
+      "Préchauffer le four à 180 °C et beurrer un plat.",
+      "Mélanger 3 œufs, 80 g de sucre, 80 g de farine puis 30 cl de lait.",
+      "Disposer les fruits dans le plat et verser la pâte.",
+      "Cuire 35 min."
+    ]
+  },
+  {
+    "titre": "Tzatziki",
+    "duree_minutes": 10,
+    "ingredients": [
+      {"nom": "Concombre", "cles": ["concombre"]},
+      {"nom": "Yaourt grec", "cles": ["yaourt", "fromage blanc", "skyr"]},
+      {"nom": "Ail", "cles": ["ail"]}
+    ],
+    "etapes": [
+      "Râper le concombre et bien l'essorer.",
+      "Mélanger avec le yaourt, l'ail écrasé, sel, poivre et menthe ou aneth.",
+      "Servir frais avec du pain ou des légumes."
+    ]
+  },
+  {
+    "titre": "Guacamole",
+    "duree_minutes": 10,
+    "ingredients": [
+      {"nom": "Avocat", "cles": ["avocat"]},
+      {"nom": "Tomate", "cles": ["tomate"], "sauf": ["sauce tomate", "concentre de tomate"]},
+      {"nom": "Citron vert ou jaune", "cles": ["citron"]},
+      {"nom": "Oignon", "cles": ["oignon", "echalote"]}
+    ],
+    "etapes": [
+      "Écraser les avocats à la fourchette.",
+      "Ajouter la tomate et l'oignon finement hachés.",
+      "Assaisonner avec le jus de citron, sel et piment."
+    ]
+  },
+  {
+    "titre": "Œufs cocotte aux épinards",
+    "duree_minutes": 15,
+    "ingredients": [
+      {"nom": "Épinards", "cles": ["epinard"]},
+      {"nom": "Œufs", "cles": ["oeuf"]},
+      {"nom": "Crème fraîche", "cles": ["creme fraiche", "creme liquide", "creme epaisse", "creme entiere", "creme legere"]}
+    ],
+    "etapes": [
+      "Faire tomber les épinards 3 min à la poêle avec du beurre.",
+      "Les répartir dans des ramequins, ajouter une cuillère de crème.",
+      "Casser un œuf dans chaque ramequin, saler, poivrer.",
+      "Cuire 8 min au four à 180 °C."
+    ]
+  },
+  {
+    "titre": "Pâtes au brocoli",
+    "duree_minutes": 20,
+    "ingredients": [
+      {"nom": "Pâtes", "cles": ["pates", "penne", "orecchiette", "spaghetti"], "sauf": ["pate brisee", "pate feuilletee", "pate a pizza", "pate a tartiner"], "placard": true},
+      {"nom": "Brocoli", "cles": ["brocoli"]},
+      {"nom": "Parmesan", "cles": ["parmesan", "parmigiano", "grana padano"]},
+      {"nom": "Ail", "cles": ["ail"]}
+    ],
+    "etapes": [
+      "Cuire les pâtes et le brocoli en fleurettes dans la même eau salée.",
+      "Faire dorer l'ail émincé dans l'huile d'olive.",
+      "Mélanger pâtes, brocoli et ail, ajouter le parmesan."
+    ]
+  },
+  {
+    "titre": "Riz cantonais",
+    "duree_minutes": 25,
+    "ingredients": [
+      {"nom": "Riz cuit", "cles": ["riz"], "placard": true},
+      {"nom": "Œufs", "cles": ["oeuf"]},
+      {"nom": "Jambon", "cles": ["jambon"], "sauf": ["jambon cru"]},
+      {"nom": "Petits pois", "cles": ["petit pois"]}
+    ],
+    "etapes": [
+      "Faire une omelette fine, la couper en lanières.",
+      "Faire sauter le riz cuit dans un peu d'huile.",
+      "Ajouter le jambon en dés, les petits pois et l'omelette.",
+      "Assaisonner de sauce soja."
+    ]
+  },
+  {
+    "titre": "Salade grecque",
+    "duree_minutes": 10,
+    "ingredients": [
+      {"nom": "Concombre", "cles": ["concombre"]},
+      {"nom": "Tomates", "cles": ["tomate"], "sauf": ["sauce tomate", "concentre de tomate"]},
+      {"nom": "Feta", "cles": ["feta"]},
+      {"nom": "Oignon rouge", "cles": ["oignon"]},
+      {"nom": "Olives", "cles": ["olive"], "sauf": ["huile d'olive", "huile olive"]}
+    ],
+    "etapes": [
+      "Couper concombre, tomates et oignon.",
+      "Ajouter la feta en dés et les olives.",
+      "Assaisonner d'huile d'olive, origan, sel et poivre."
+    ]
+  },
+  {
+    "titre": "Croque au chèvre et tomate",
+    "duree_minutes": 15,
+    "ingredients": [
+      {"nom": "Pain", "cles": ["pain de mie", "pain", "baguette"], "placard": true},
+      {"nom": "Chèvre", "cles": ["chevre", "buche de chevre"]},
+      {"nom": "Tomate", "cles": ["tomate"], "sauf": ["sauce tomate", "concentre de tomate"]}
+    ],
+    "etapes": [
+      "Poser des rondelles de tomate et de chèvre sur les tranches de pain.",
+      "Ajouter un filet d'huile d'olive et du thym.",
+      "Passer 8 min au four à 200 °C."
+    ]
+  }
+]

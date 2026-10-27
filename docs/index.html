@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#2e7d5b">
+  <title>Périmo</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icone-192.png">
+  <link rel="apple-touch-icon" href="icone-192.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+  <script src="https://unpkg.com/html5-qrcode@2.3.8/html5-qrcode.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>🥕 Périmo</h1>
+    <p>Mon frigo, sans gaspi</p>
+    <button id="btn-deconnexion" type="button" hidden>Se déconnecter</button>
+  </header>
+
+  <main>
+    <p id="erreur-config" class="carte" hidden>
+      ⚙️ Périmo n'est pas encore relié à Supabase : remplissez le fichier <code>config.js</code>.
+    </p>
+
+    <section id="ecran-connexion" class="carte" hidden>
+      <h2>Connexion</h2>
+      <form id="form-connexion">
+        <label>E-mail
+          <input name="email" type="email" autocomplete="email" required>
+        </label>
+        <label>Mot de passe
+          <input name="password" type="password" autocomplete="current-password" minlength="6" required>
+        </label>
+        <button type="submit" class="principal">Se connecter</button>
+        <button id="btn-inscription" type="button" class="secondaire">Créer un compte</button>
+        <p id="message-connexion" role="status"></p>
+      </form>
+    </section>
+
+    <div id="ecran-app" hidden>
+      <section class="carte">
+        <h2>Ajouter un produit</h2>
+        <button id="btn-scan" class="principal">📷 Scanner un code-barres</button>
+        <div id="lecteur" hidden></div>
+
+        <form id="form-produit">
+          <input type="hidden" name="code_barre">
+          <input type="hidden" name="image_url">
+          <div id="apercu" hidden><img alt=""><span></span></div>
+          <label>Nom du produit
+            <input name="nom" required placeholder="ex : Yaourt nature">
+          </label>
+          <label>Marque
+            <input name="marque" placeholder="facultatif">
+          </label>
+          <div class="ligne">
+            <label>Date de péremption
+              <input name="date_peremption" type="date" required>
+            </label>
+            <label class="petit">Quantité
+              <input name="quantite" type="number" min="1" value="1">
+            </label>
+          </div>
+          <button id="btn-photo-date" type="button" class="secondaire">📷 Lire la date sur une photo</button>
+          <input id="photo-date" type="file" accept="image/*" capture="environment" hidden>
+          <p id="message-date" class="aide" role="status"></p>
+          <div id="dates-trouvees"></div>
+          <button type="submit" class="principal">Ajouter au frigo</button>
+          <p id="message" role="status"></p>
+        </form>
+      </section>
+
+      <section class="carte">
+        <h2>Dans mon frigo <span id="compteur"></span></h2>
+        <ul id="liste"></ul>
+      </section>
+
+      <section class="carte">
+        <h2>🍳 Idées de recettes</h2>
+        <p class="aide">Des recettes avec ce qu'il y a dans le frigo, en commençant par ce qui périme le plus tôt.</p>
+        <button id="btn-recettes" type="button" class="principal">Proposer des recettes</button>
+        <p id="message-recettes" role="status"></p>
+        <div id="recettes"></div>
+      </section>
+
+      <section class="carte">
+        <h2>🔔 Notifications</h2>
+        <p class="aide">
+          Installez l'app <strong>ntfy</strong> sur votre téléphone, puis abonnez-vous à ce sujet :
+        </p>
+        <div class="sujet">
+          <code id="ntfy-topic">…</code>
+          <button id="btn-copier" type="button" title="Copier">📋</button>
+        </div>
+        <p class="aide" id="ntfy-infos"></p>
+        <button id="btn-test" type="button" class="secondaire">Envoyer une notification maintenant</button>
+        <p id="message-notif" role="status"></p>
+      </section>
+    </div>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="ocr-date.js"></script>
+  <script src="recettes.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
