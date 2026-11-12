@@ -82,7 +82,11 @@ formConnexion.addEventListener("submit", async (e) => {
 document.getElementById("btn-inscription").addEventListener("click", async () => {
   if (!formConnexion.reportValidity()) return;
   const { email, password } = Object.fromEntries(new FormData(formConnexion));
-  const { data, error } = await db.auth.signUp({ email, password });
+  const { data, error } = await db.auth.signUp({
+    email,
+    password,
+    options: { emailRedirectTo: location.origin + location.pathname },
+  });
   if (error) return messageCnx(`Inscription impossible : ${error.message}`);
   if (!data.session) {
     messageCnx("Compte créé ✔ Cliquez sur le lien reçu par e-mail, puis connectez-vous.", false);
